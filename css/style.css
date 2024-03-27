@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(211, 211, 211);
+}
+
+.nav-link:hover{
+    color: white;
+    transition: .2s;
+}
+
+.offcanvas-header a{
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+.dropdown-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:rgb(211, 211, 211);
+}
+.btn-secondary{
+    color: white;
+    font-weight: 600;
+    background-color:rgb(48, 48, 48);
+    border-radius: 20px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+main img{
+    height:500px;
+    width: 100%;
+}
+
+.col h2{
+    font-size:1rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.links a{
+    margin: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.text-overlay {
+    display: block;
+    margin-top: 100px;
+}
+  
+.typing-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space:nowrap;
+    margin: 0;
+    letter-spacing: .15em;
+    animation: typing 4s steps(30, end), blink-caret .5s step-end infinite alternate;
+}
+  
+ 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+.iphonewhite{
+    position: absolute;
+    display: inline-block;
+}
+.iphonewhite h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.iphonewhite h2{
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.container-fluid{
+    display: inline-block;
+    background: color #f7f7f7;;
+}
+
+.container-fluid p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    height: min-content;
+}
+
+span.titleGrey{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container-fluid p{
+    margin-top: 20px;
+}
+
+.suport img{
+    border-radius: 50%;
+}
+
+.maps{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.maps img{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.maps a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.2rem;
+    margin-left: 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
