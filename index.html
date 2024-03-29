@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-dark bg-dark fixed-top ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="svg/applesimbol.svg" alt="">
@@ -69,13 +69,57 @@
           </div>
         </div>
       </div>
+      <div class="navbarLargerDisplay">
+        <ul>
+          <li>
+            <a href="#">Loja</a>
+          </li>
+          <li>
+            <a href="#">Iphone</a>
+          </li>
+          <li>
+            <a href="#">Mac</a>
+          </li>
+          <li>
+            <a href="#">Ipad</a>
+          </li>
+          <li>
+            <a href="#">AirPods</a>
+          </li>
+          <li>
+            <a href="#">Watch</a>
+          </li>
+          <li>
+            <a href="#">Entreterimento</a>
+          </li>
+        </ul>
+    </div>
+    <div class="svg-icons">
+      <a href="#">
+        <img src="svg/cart.svg" alt="">
+      </a>
+      <a href="#">
+        <button class="btn btn-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <img src="svg/account.svg" alt="accountPage">
+        </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+            </div>
+          </div>
+      </a>
+    </div>
     </nav>
   </header>
   <main>
         <div class="col">
             <div class="text-overlay">
               <h1 class="typing-text">
-                iPhone 15 Pro...
+                IPHONE 15 PRO...
               </h1>
               <h2>
                 Titânio. Muito robusto. Muito leve. Muito Pro.
@@ -87,15 +131,16 @@
             </div>
         </div>
         <img src="images/iphone15pro-small (1).jpg" class="img-fluid" alt="iphone15pro">
+        <img src="images/iphone15pro-larger.jpg" class="img-fluid iphoneLarger" alt="iphonegrande">
   </main>
   <div class="col">
     <img src="images/iphone15pro-deitadobranco.jpg" class="img-fluid" alt="iphone15pro">
       <div class="iphonewhite">
         <h1 class="">
-          iPhone 15
+          IPhone 15
         </h1>
         <h2>
-          A camêra é uau. O desing é uau. É todo uau.
+          A câmera é uau. O desing é uau. É todo uau.
         </h2>
         <div class="links">
           <a href="#">Saiba Mais</a>
@@ -142,12 +187,14 @@
     </button>
   </div>
     <section class="container-fluid">
-          <p>
+      <div class="textClick">
+        <p>
           Loja. <span class="titleGrey">O melhor jeito de comprar o que você ama.</span>
-          </p>
+        </p>
+      </div>
           <div class="suport">
             <img src="images/mulherSuporte.jpg" alt="">
-            <button type="button" class="btn btn-lg btn-white" id="liveToastBtn">Ajuda para comprar?</button>
+            <button type="button" class="btn btn-lg btn-white" id="liveToastBtn">Ajuda para comprar? Clique aqui!</button>
         
             <div class="toast-container position-fixed bottom-0 end-0 p-3">
               <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -182,7 +229,7 @@
             </div>
             <div class="col">
               <div class="card text-bg-white shadow p-3 mb-5 bg-body-tertiary rounded">
-                <img src="images/ipads.jpg" class="img-fluid" class="card-img"  alt="...">
+                <img src="images/ipads.jpg" id="ipadheight" class="img-fluid" class="card-img"   alt="...">
                 <div class="card-img-overlay">
                   <h5 class="card-title">IPad</h5>
                   <p class="card-text">Inspira. Desenha. Divirte.</p>
@@ -217,14 +264,16 @@
           </div>
     </section>
     <section class="container-fluid ">
-      <div class="clique-aqui">
+      <div class="click-here">
         <p>
           Na Apple Store, é diferente. <span class="titleGrey">Clique e veja os motivos para comprar com a gente.</span>
         </p>
-        <button type="button" class="btn btn-lg btn-white"  data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="Frete" data-bs-content="Frete grátis em todos os pedidos"><img src="svg/fretegatis.svg" alt="frete grátis">
-        </button>
-        <button type="button" class="btn btn-lg btn-white"  data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="Parcelamento" data-bs-content="Parcelamos em até 12 vezes sem juros"><img src="svg/parcelamentocartao.svg" alt="parcelamento">
-        </button>
+        <div class="clickHereButton">
+          <button type="button" class="btn btn-lg btn-white"  data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="Frete" data-bs-content="Frete grátis em todos os pedidos"><img src="svg/fretegatis.svg" alt="frete grátis">
+          </button>
+          <button type="button" class="btn btn-lg btn-white"  data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="Parcelamento" data-bs-content="Parcelamos em até 12 vezes sem juros"><img src="svg/parcelamentocartao.svg" alt="parcelamento">
+          </button>
+        </div>
       </div>
     </section>
     <footer class="container-fluid">

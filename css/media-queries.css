@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+
+}
+
+@media (min-width:768px) and (max-width:3000px){
+    .navbarLargerDisplay{
+        display: flex;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 12px;
+    }
+
+    .navbarLargerDisplay ul li{
+        display: inline-flex;
+        margin-left: 20px;
+    }
+
+    .navbarLargerDisplay ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color:rgb(211, 211, 211);
+    }
+
+    .navbarLargerDisplay ul li a:hover{
+        color:white;
+        transition: .2s;
+    }
+    nav button{
+        display: none;
+    }
+
+    main img{
+        display: none;
+    }
+
+    .iphoneLarger{
+        display: flex;
+    }
+
+    .svg-icons{
+        display: flex;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .svg-icons a{
+        margin-left: 10px;
+    }
+
+    .svg-icons a img{
+        height: 50px;
+        color: rgb(211, 211, 211);
+    }
+
+    .iphonewhite h1{
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+
+    .iphonewhite h2{
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+
+    .textClick{
+        display: flex;
+        justify-content: center;
+    }
+
+    #ipadheight{
+        height: 100%;
+    }
+
+    .button-footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer ul{
+        display:flex;
+        flex-flow:row;
+        align-content: center;
+    }
+}

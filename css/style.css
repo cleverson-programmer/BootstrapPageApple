@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .nav-link{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -134,11 +133,17 @@ span.titleGrey{
     margin-top: 20px;
 }
 
-.clique-aqui{
+.click-here{
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.clickHereButton{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
 
 .container-fluid p{
     margin-top: 20px;
@@ -187,7 +192,7 @@ p.card-text{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
-    width: 300px;
+    width: 330px;
     margin-left: 10px;
 }
 
@@ -244,4 +249,18 @@ footer h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     color: grey;
+}
+
+
+.navbarLargerDisplay{
+    display: none;
+}
+
+
+.iphoneLarger{
+    display: none;
+}
+
+.svg-icons{
+    display: none;
 }
