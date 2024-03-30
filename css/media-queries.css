@@ -43,7 +43,7 @@
     .svg-icons{
         display: flex;
         position: absolute;
-        margin-left: 90%;
+        margin-left: 88%;
     }
 
     .svg-icons a{
@@ -53,6 +53,10 @@
     .svg-icons a img{
         height: 50px;
         color: rgb(211, 211, 211);
+    }
+    .svg-icons a span img{
+        margin-top: 4px;
+        height: 60px;
     }
 
     .iphonewhite h1{
@@ -77,6 +81,10 @@
     .button-footer{
         display: flex;
         justify-content: center;
+    }
+
+    .offcanvas-header button{
+        display: flex;
     }
     
     footer ul{

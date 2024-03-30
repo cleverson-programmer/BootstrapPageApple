@@ -96,22 +96,40 @@
     </div>
     <div class="svg-icons">
       <a href="#">
-        <img src="svg/cart.svg" alt="">
-      </a>
+        <span>
+          <img src="svg/cart.svg" alt="">
+        </span>
       <a href="#">
         <button class="btn btn-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
           <img src="svg/account.svg" alt="accountPage">
         </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">Login</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              ...
-            </div>
-          </div>
       </a>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h3 class="offcanvas-title" id="offcanvasRightLabel">Inicie sessão na Apple Store</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form class="" role="search">
+          <p>EMAIL:</p>
+          <input class="form-control me-2" type="email" placeholder="Digite seu email" aria-label="Search">
+          <p>SENHA:</p>
+          <input class="form-control me-2" type="password" name="senha" id="" placeholder="Digite sua senha">
+        </form>
+        <div class="appleIdSave">
+          <input type="checkbox" name="SaveLogin"  id="">
+          <p>Lembrar Apple ID ?</p>
+        </div>
+        <div class="createAccount">
+          <a href="#">
+            Esqueceu a senha?
+          </a>
+          <p>
+            Não tem um Apple ID? <span><a href="#">Crie agora</a></span>
+          </p>
+        </div>
+      </div>
     </div>
     </nav>
   </header>

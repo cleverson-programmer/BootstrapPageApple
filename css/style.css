@@ -21,6 +21,48 @@
     color: white;
     cursor: pointer;
 }
+
+.offcanvas-header button{
+    color: black;
+}
+
+.offcanvas-header h3{
+    color: #6e6e73;
+    text-align: center;
+}
+
+.offcanvas .offcanvas-body{
+    display:inline-flex;
+    justify-content:flex-start;
+    flex-flow:column;
+}
+
+.offcanvas-body p{
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.appleIdSave{
+    display: inline-flex;
+    margin-top: 10px;
+    justify-items: baseline;
+    justify-content: center;
+}
+
+.appleIdSave input{
+    width: 15px;
+}
+
+.appleIdSave p{
+    margin-left: 10px;
+}
+
+.createAccount a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .dropdown-item{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
